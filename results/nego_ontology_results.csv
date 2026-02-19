@@ -1,0 +1,51 @@
+iri,accept_header,http_status,final_url,content_type,parsed_successfully,current_version,previous_version,triple_count,message
+https://w3id.org/pmd/co/,application/rdf+xml,200,https://materialdigital.github.io/core-ontology/ontology.owl,application/rdf+xml,TRUE,https://w3id.org/pmd/co/3.0.0-rc2,https://w3id.org/pmd/co/3.0.0-rc1,8368,Parsed
+https://w3id.org/pmd/co/,text/turtle,200,https://materialdigital.github.io/core-ontology/ontology.ttl,text/turtle; charset=utf-8,TRUE,https://w3id.org/pmd/co/3.0.0-rc2,https://w3id.org/pmd/co/3.0.0-rc1,8368,Parsed
+https://w3id.org/pmd/co/,application/ld+json,200,https://materialdigital.github.io/core-ontology/ontology.jsonld,application/ld+json,TRUE,https://w3id.org/pmd/co/3.0.0-rc2,https://w3id.org/pmd/co/3.0.0-rc1,8356,Parsed
+https://w3id.org/pmd/co/,application/n-triples,200,https://materialdigital.github.io/core-ontology/ontology.nt,application/n-triples,TRUE,https://w3id.org/pmd/co/3.0.0-rc2,https://w3id.org/pmd/co/3.0.0-rc1,8855,Parsed
+https://w3id.org/pmd/co/,text/n3,406,https://w3id.org/pmd/co/,text/html; charset=iso-8859-1,FALSE,,,0,HTTP 406
+http://purls.helmholtz-metadaten.de/mwo/,application/rdf+xml,ERROR,,,FALSE,,,0,Exceeded 30 redirects.
+http://purls.helmholtz-metadaten.de/mwo/,text/turtle,ERROR,,,FALSE,,,0,Exceeded 30 redirects.
+http://purls.helmholtz-metadaten.de/mwo/,application/ld+json,ERROR,,,FALSE,,,0,Exceeded 30 redirects.
+http://purls.helmholtz-metadaten.de/mwo/,application/n-triples,ERROR,,,FALSE,,,0,Exceeded 30 redirects.
+http://purls.helmholtz-metadaten.de/mwo/,text/n3,ERROR,,,FALSE,,,0,Exceeded 30 redirects.
+https://nfdi.fiz-karlsruhe.de/ontology,application/rdf+xml,200,https://ise-fizkarlsruhe.github.io/nfdicore/3.0.4/ontology.owl,application/rdf+xml,TRUE,https://nfdi.fiz-karlsruhe.de/ontology/3.0.4,https://nfdi.fiz-karlsruhe.de/ontology/3.0.3,3171,Parsed
+https://nfdi.fiz-karlsruhe.de/ontology,text/turtle,200,https://ise-fizkarlsruhe.github.io/nfdicore/3.0.4/ontology.ttl,text/turtle; charset=utf-8,TRUE,https://nfdi.fiz-karlsruhe.de/ontology/3.0.4,https://nfdi.fiz-karlsruhe.de/ontology/3.0.3,3171,Parsed
+https://nfdi.fiz-karlsruhe.de/ontology,application/ld+json,200,https://ise-fizkarlsruhe.github.io/nfdicore/3.0.4/ontology.jsonld,application/ld+json,TRUE,https://nfdi.fiz-karlsruhe.de/ontology/3.0.4,https://nfdi.fiz-karlsruhe.de/ontology/3.0.3,3159,Parsed
+https://nfdi.fiz-karlsruhe.de/ontology,application/n-triples,404,https://ise-fizkarlsruhe.github.io/nfdicore/3.0.4/ontology.n3,text/html; charset=utf-8,FALSE,,,0,HTTP 404
+https://nfdi.fiz-karlsruhe.de/ontology,text/n3,ERROR,,,FALSE,,,0,"not enough values to unpack (expected 4, got 3)"
+https://w3id.org/pmd/vto/,application/rdf+xml,200,https://materialdigital.github.io/vickers-testing-ontology//ontology.owl,application/rdf+xml,TRUE,https://w3id.org/pmd/vto/3.0.0,,9266,Parsed
+https://w3id.org/pmd/vto/,text/turtle,200,https://materialdigital.github.io/vickers-testing-ontology//ontology.ttl,text/turtle; charset=utf-8,TRUE,https://w3id.org/pmd/vto/3.0.0,,9266,Parsed
+https://w3id.org/pmd/vto/,application/ld+json,200,https://materialdigital.github.io/vickers-testing-ontology//ontology.jsonld,application/ld+json,TRUE,https://w3id.org/pmd/vto/3.0.0,,9254,Parsed
+https://w3id.org/pmd/vto/,application/n-triples,200,https://materialdigital.github.io/vickers-testing-ontology//ontology.nt,application/n-triples,TRUE,https://w3id.org/pmd/vto/3.0.0,,9898,Parsed
+https://w3id.org/pmd/vto/,text/n3,406,https://w3id.org/pmd/vto/,text/html; charset=iso-8859-1,FALSE,,,0,HTTP 406
+https://w3id.org/pmd/tto/tto-full.owl,application/rdf+xml,404,https://materialdigital.github.io/tensile-test-ontology/ontology.rdf,text/html; charset=utf-8,FALSE,,,0,HTTP 404
+https://w3id.org/pmd/tto/tto-full.owl,text/turtle,200,https://materialdigital.github.io/tensile-test-ontology/ontology.ttl,text/turtle; charset=utf-8,TRUE,https://w3id.org/pmd/tto/releases/2026-02-04/tto-full.owl,,9478,Parsed
+https://w3id.org/pmd/tto/tto-full.owl,application/ld+json,200,https://materialdigital.github.io/tensile-test-ontology/ontology.jsonld,application/ld+json,TRUE,https://w3id.org/pmd/tto/releases/2026-02-04/tto-full.owl,,9466,Parsed
+https://w3id.org/pmd/tto/tto-full.owl,application/n-triples,200,https://materialdigital.github.io/tensile-test-ontology/ontology.nt,application/n-triples,TRUE,https://w3id.org/pmd/tto/releases/2026-02-04/tto-full.owl,,10012,Parsed
+https://w3id.org/pmd/tto/tto-full.owl,text/n3,406,https://w3id.org/pmd/tto/tto-full.owl,text/html; charset=iso-8859-1,FALSE,,,0,HTTP 406
+https://w3id.org/pmd/co/2.0.7,application/rdf+xml,200,https://materialdigital.github.io/core-ontology/2.0.7/ontology.owl,application/rdf+xml,TRUE,https://w3id.org/pmd/co/2.0.7,,2258,Parsed
+https://w3id.org/pmd/co/2.0.7,text/turtle,200,https://materialdigital.github.io/core-ontology/2.0.7/ontology.ttl,text/turtle; charset=utf-8,TRUE,https://w3id.org/pmd/co/2.0.7,,2258,Parsed
+https://w3id.org/pmd/co/2.0.7,application/ld+json,200,https://materialdigital.github.io/core-ontology/2.0.7/ontology.jsonld,application/ld+json,TRUE,https://w3id.org/pmd/co/2.0.7,,2238,Parsed
+https://w3id.org/pmd/co/2.0.7,application/n-triples,200,https://materialdigital.github.io/core-ontology/2.0.7/ontology.nt,application/n-triples,TRUE,https://w3id.org/pmd/co/2.0.7,,2332,Parsed
+https://w3id.org/pmd/co/2.0.7,text/n3,406,https://w3id.org/pmd/co/2.0.7,text/html; charset=iso-8859-1,FALSE,,,0,HTTP 406
+https://w3id.org/pmd/fsp/,application/rdf+xml,404,https://leibniz-iwt.github.io/PMD-FSP-Ontology/ontology.rdf,text/html; charset=utf-8,FALSE,,,0,HTTP 404
+https://w3id.org/pmd/fsp/,text/turtle,200,https://leibniz-iwt.github.io/PMD-FSP-Ontology/ontology.ttl,text/turtle; charset=utf-8,TRUE,https://w3id.org/pmd/fsp/2.0,,206,Parsed
+https://w3id.org/pmd/fsp/,application/ld+json,200,https://leibniz-iwt.github.io/PMD-FSP-Ontology/ontology.jsonld,application/ld+json,TRUE,https://w3id.org/pmd/fsp/2.0,,206,Parsed
+https://w3id.org/pmd/fsp/,application/n-triples,200,https://leibniz-iwt.github.io/PMD-FSP-Ontology/ontology.nt,application/n-triples,TRUE,https://w3id.org/pmd/fsp/2.0,,206,Parsed
+https://w3id.org/pmd/fsp/,text/n3,406,https://w3id.org/pmd/fsp/,text/html; charset=iso-8859-1,FALSE,,,0,HTTP 406
+https://w3id.org/pmd/log/,application/rdf+xml,200,https://materialdigital.github.io/logistics-application-ontology/ontology.owl,application/rdf+xml,TRUE,https://w3id.org/pmd/log/releases/2025-11-20/log-simple.owl,,1340,Parsed
+https://w3id.org/pmd/log/,text/turtle,200,https://materialdigital.github.io/logistics-application-ontology/ontology.ttl,text/turtle; charset=utf-8,TRUE,https://w3id.org/pmd/log/releases/2025-11-20/log-simple.owl,,1340,Parsed
+https://w3id.org/pmd/log/,application/ld+json,200,https://materialdigital.github.io/logistics-application-ontology/ontology.jsonld,application/ld+json,TRUE,https://w3id.org/pmd/log/releases/2025-11-20/log-simple.owl,,1340,Parsed
+https://w3id.org/pmd/log/,application/n-triples,200,https://materialdigital.github.io/logistics-application-ontology/ontology.nt,application/n-triples,TRUE,https://w3id.org/pmd/log/releases/2025-11-20/log-simple.owl,,1398,Parsed
+https://w3id.org/pmd/log/,text/n3,406,https://w3id.org/pmd/log/,text/html; charset=iso-8859-1,FALSE,,,0,HTTP 406
+https://w3id.org/pmd/hto/hto-base.owl,application/rdf+xml,200,https://materialdigital.github.io/heat-treatment-application-ontology/ontology.owl,application/rdf+xml,TRUE,https://w3id.org/pmd/hto/releases/2026-02-10/hto-base.owl,,863,Parsed
+https://w3id.org/pmd/hto/hto-base.owl,text/turtle,200,https://materialdigital.github.io/heat-treatment-application-ontology/ontology.ttl,text/turtle; charset=utf-8,TRUE,https://w3id.org/pmd/hto/releases/2026-02-10/hto-base.owl,,863,Parsed
+https://w3id.org/pmd/hto/hto-base.owl,application/ld+json,200,https://materialdigital.github.io/heat-treatment-application-ontology/ontology.jsonld,application/ld+json,TRUE,https://w3id.org/pmd/hto/releases/2026-02-10/hto-base.owl,,863,Parsed
+https://w3id.org/pmd/hto/hto-base.owl,application/n-triples,200,https://materialdigital.github.io/heat-treatment-application-ontology/ontology.nt,application/n-triples,TRUE,https://w3id.org/pmd/hto/releases/2026-02-10/hto-base.owl,,887,Parsed
+https://w3id.org/pmd/hto/hto-base.owl,text/n3,406,https://w3id.org/pmd/hto/hto-base.owl,text/html; charset=iso-8859-1,FALSE,,,0,HTTP 406
+https://w3id.org/pmd/materials-mechanics-ontology,application/rdf+xml,200,https://iwm-micro-mechanics-public.pages.fraunhofer.de/ontologies/materials-mechanics-ontology/ontology.rdf,application/rdf+xml,TRUE,https://w3id.org/pmd/materials-mechanics-ontology/1.0.1,,2413,Parsed
+https://w3id.org/pmd/materials-mechanics-ontology,text/turtle,200,https://iwm-micro-mechanics-public.pages.fraunhofer.de/ontologies/materials-mechanics-ontology/ontology.ttl,text/turtle; charset=utf-8,TRUE,https://w3id.org/pmd/materials-mechanics-ontology/1.0.1,,2413,Parsed
+https://w3id.org/pmd/materials-mechanics-ontology,application/ld+json,200,https://iwm-micro-mechanics-public.pages.fraunhofer.de/ontologies/materials-mechanics-ontology/ontology.jsonld,application/ld+json,TRUE,https://w3id.org/pmd/materials-mechanics-ontology/1.0.1,,2413,Parsed
+https://w3id.org/pmd/materials-mechanics-ontology,application/n-triples,200,https://iwm-micro-mechanics-public.pages.fraunhofer.de/ontologies/materials-mechanics-ontology/ontology.nt,application/n-triples,TRUE,https://w3id.org/pmd/materials-mechanics-ontology/1.0.1,,2413,Parsed
+https://w3id.org/pmd/materials-mechanics-ontology,text/n3,406,https://w3id.org/pmd/materials-mechanics-ontology/,text/html; charset=iso-8859-1,FALSE,,,0,HTTP 406

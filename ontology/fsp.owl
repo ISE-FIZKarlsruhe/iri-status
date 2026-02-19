@@ -1,0 +1,619 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/pmd/fsp/"
+     xml:base="https://w3id.org/pmd/fsp/"
+     xmlns:co="https://w3id.org/pmd/co/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:chebi="http://purl.obolibrary.org/obo/chebi#3"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="https://w3id.org/pmd/fsp/">
+        <owl:versionIRI rdf:resource="https://w3id.org/pmd/fsp/2.0"/>
+        <owl:imports rdf:resource="https://w3id.org/pmd/co"/>
+        <dc:creator xml:lang="en">Keno Krieger</dc:creator>
+        <dc:creator xml:lang="en">Manuel Vollbrecht</dc:creator>
+        <dc:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <terms:title xml:lang="en">Platform Material Digital Flame Spray Pyrolysis Ontology (pmdfsp)</terms:title>
+        <rdfs:comment xml:lang="en">Ontology for a flame spray pyrolysis process manufacturing nanoparticles</rdfs:comment>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_138675 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_138675"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_75958 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75958"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Organization -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/prov#Organization"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/Blank -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/co/Blank"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/Chemical -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/co/Chemical"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/ChemicalComposition -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/co/ChemicalComposition"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/Component -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/co/Component"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/Distance -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/co/Distance"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/EngineeredMaterial -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/co/EngineeredMaterial"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/Identifier -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/co/Identifier"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/ManufacturingProcess -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/co/ManufacturingProcess"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/Object -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/co/Object"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/ProcessingNode -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/co/ProcessingNode"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/Shape -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/co/Shape"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/ValueObject -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/co/ValueObject"/>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/Angle -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/Angle">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/ValueObject"/>
+        <rdfs:isDefinedBy>https://w3id.org/pmd/fsp</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Angle</rdfs:label>
+        <rdfs:label xml:lang="de">Winkel</rdfs:label>
+        <skos:definition xml:lang="en">The inclination of an entity with respect to a reference plane</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/Cylindric -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/Cylindric">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/Shape"/>
+        <rdfs:isDefinedBy>“Cylindrical.” Merriam-Webster.com Dictionary, Merriam-Webster, https://www.merriam-webster.com/dictionary/cylindrical. Accessed 7 Apr. 2024.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Cylindric</rdfs:label>
+        <skos:definition xml:lang="en">Relating to or having the form or properties of a cylinder.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/DepositionComponent -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/DepositionComponent">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/Component"/>
+        <rdfs:isDefinedBy>https://w3id.org/pmd/fsp</rdfs:isDefinedBy>
+        <rdfs:label>Deposition Component</rdfs:label>
+        <skos:definition xml:lang="en">The component used to separate an entity from a gas flow, e.g. a filter.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/DispersionGas -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/DispersionGas">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_138675"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/Object"/>
+        <rdfs:isDefinedBy>https://w3id.org/pmd/fsp</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Dispersion Gas</rdfs:label>
+        <skos:definition xml:lang="en">Gas which is used to disperse a liquid into droplets.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/Enclosure -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/Enclosure">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/Component"/>
+        <rdfs:isDefinedBy>https://w3id.org/pmd/fsp</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Enclosure</rdfs:label>
+        <skos:definition xml:lang="en">Physical hollow body which surrounds an entitiy with the purpose to protect it from ambient influences.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/FeedRate -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/FeedRate">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/fsp/VolumeFlow"/>
+        <rdfs:isDefinedBy>https://w3id.org/pmd/fsp</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Feed Rate</rdfs:label>
+        <skos:definition xml:lang="en">Temporal rate with which a defined volume of a species is fed into a process.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/FlameSprayPyrolysisReactor -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/FlameSprayPyrolysisReactor">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/fsp/Reactor"/>
+        <rdfs:isDefinedBy>https://w3id.org/pmd/fsp</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Flame Spray Pyrolysis Reactor</rdfs:label>
+        <skos:definition xml:lang="en">static experimental set-up of the flame spray pyrolysis process, including nozzle and deposition specifications</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/FlamesprayPyrolysis -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/FlamesprayPyrolysis">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/fsp/NanoparticleSynthesis"/>
+        <rdfs:isDefinedBy>https://w3id.org/pmd/fsp</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Flame Spray Pyrolysis</rdfs:label>
+        <rdfs:label xml:lang="de">Flammensprühpyrolyse</rdfs:label>
+        <skos:definition xml:lang="en">A manufacturing process with the intend to synthesize aggregated nanoparticles in the gas phase through the controlled combustion of a dispersed liquid precursor solution.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/FuelGas -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/FuelGas">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_138675"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/Object"/>
+        <rdfs:isDefinedBy>https://w3id.org/pmd/fsp</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Fuel Gas</rdfs:label>
+        <skos:definition xml:lang="en">Educt gas taking part in a combustion process.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/GDFFilter -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/GDFFilter">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/fsp/NanoparticleFilter"/>
+        <rdfs:isDefinedBy>https://w3id.org/pmd/fsp</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">GD/F Filter</rdfs:label>
+        <skos:definition xml:lang="en">Filter class, made of amorphous silicon dioxide.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/GasFlow -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/GasFlow">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/fsp/VolumeFlow"/>
+        <rdfs:isDefinedBy>https://w3id.org/pmd/fsp</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Gas Flow</rdfs:label>
+        <skos:definition xml:lang="en">The volume flow of a gas.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/LOT -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/LOT">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/Identifier"/>
+        <rdfs:label xml:lang="en">LOT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/Mixing -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/Mixing">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/ManufacturingProcess"/>
+        <rdfs:isDefinedBy>https://w3id.org/pmd/fsp</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Mixing</rdfs:label>
+        <skos:definition xml:lang="en">process of combining two or more, initially spatially separated, species into one homogeneous mixture</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/Molarity -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/Molarity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/Chemical"/>
+        <rdfs:isDefinedBy>DONALD J. PIETRZYK, CLYDE W. FRANK, in Analytical Chemistry, 1979</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Molarity</rdfs:label>
+        <skos:definition xml:lang="en">Molarity is a unit of concentration expressed as the number of moles of dissolved solute per liter of solution.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/Nanoparticle -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/Nanoparticle">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/EngineeredMaterial"/>
+        <rdfs:isDefinedBy></rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Nanoparticle</rdfs:label>
+        <skos:definition xml:lang="en">A nanoscale particle</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/NanoparticleFilter -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/NanoparticleFilter">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/fsp/DepositionComponent"/>
+        <rdfs:isDefinedBy>https://w3id.org/pmd/fsp</rdfs:isDefinedBy>
+        <rdfs:label>Nanoparticle Filter</rdfs:label>
+        <skos:definition xml:lang="en">A component used for retrieving nanoparticles from the gas flow. Nanoparticles will accumulate on the filter and can later be scraped off.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/NanoparticleSynthesis -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/NanoparticleSynthesis">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/ManufacturingProcess"/>
+        <rdfs:isDefinedBy>https://w3id.org/pmd/fsp</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Nanoparticle Synthesis</rdfs:label>
+        <skos:definition xml:lang="en">A manufacturing process with the intend to synthesize nanoparticles.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/Nozzle -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/Nozzle">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/Component"/>
+        <rdfs:isDefinedBy>“Nozzle. ” Merriam-Webster.com Dictionary, Merriam-Webster, https://dictionary.cambridge.org/dictionary/english/nozzle. Accessed 7 Apr., 2024</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Nozzle</rdfs:label>
+        <skos:definition xml:lang="en">A short tube with a taper or constriction used (as on a hose) to speed up or direct a flow of fluid.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/NozzleFilterDistance -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/NozzleFilterDistance">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/Distance"/>
+        <rdfs:isDefinedBy>https://w3id.org/pmd/fsp</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Nozzle Filter Distance</rdfs:label>
+        <skos:definition xml:lang="en">Distance bewtween the annular gap of a nozzle and a filter medium.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/NozzleNozzleDistance -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/NozzleNozzleDistance">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/Distance"/>
+        <rdfs:isDefinedBy>https://w3id.org/pmd/fsp</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Nozzle Nozzle Distance</rdfs:label>
+        <skos:definition xml:lang="en">Euclidean distance between  the annular gaps of two nozzles.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/OxidationGas -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/OxidationGas">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_138675"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/Object"/>
+        <rdfs:isDefinedBy>https://w3id.org/pmd/fsp</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Oxidation Gas</rdfs:label>
+        <skos:definition xml:lang="en">Educt gas which contributes as an oxygen source in a combustion process.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/Precursor -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/Precursor">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_75958"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/Blank"/>
+        <rdfs:isDefinedBy>https://w3id.org/pmd/fsp</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Precursor</rdfs:label>
+        <skos:definition xml:lang="en">Liquid solution composed of solvent and solute that is dispersed and combusted in a flame spray pyrolysis process.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/Pressure -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/Pressure">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/ValueObject"/>
+        <rdfs:isDefinedBy xml:lang="en">“Pressure.” Merriam-Webster.com Dictionary, Merriam-Webster, https://www.merriam-webster.com/dictionary/force. Accessed June 5th, 2023.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Pressure</rdfs:label>
+        <skos:definition xml:lang="en">The force or thrust exerted over a surface divided by its area.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/PressureDrop -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/PressureDrop">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/ValueObject"/>
+        <rdfs:isDefinedBy>https://w3id.org/pmd/fsp</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Pressure Drop</rdfs:label>
+        <skos:definition xml:lang="en">A significant change in pressure measured over a time span or in a direction.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/Provider -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/Provider">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Organization"/>
+        <rdfs:label xml:lang="en">Provider</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/Purity -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/Purity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/Chemical"/>
+        <rdfs:isDefinedBy>“Purity.” Merriam-Webster.com Dictionary, Merriam-Webster, https://www.merriam-webster.com/dictionary/purity. Accessed 7 Apr. 2024.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Purity</rdfs:label>
+        <rdfs:label xml:lang="de">Reinheit</rdfs:label>
+        <skos:definition xml:lang="en">The quality or state of being pure</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/Reactor -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/Reactor">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/ProcessingNode"/>
+        <rdfs:isDefinedBy>https://w3id.org/pmd/fsp</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Reactor</rdfs:label>
+        <skos:definition xml:lang="en">An entity which contains and controls a process.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/SheathGas -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/SheathGas">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_138675"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/Object"/>
+        <rdfs:isDefinedBy>https://w3id.org/pmd/fsp</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Sheath Gas</rdfs:label>
+        <skos:definition xml:lang="en">Gas which protects an entity from ambient influences, e.g. oxygen entrainment.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/Solute -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/Solute">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+        <rdfs:label xml:lang="en">Solute</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/Solvent -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/Solvent">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+        <rdfs:label xml:lang="en">Solvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/SpraySynNozzle -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/SpraySynNozzle">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/fsp/Nozzle"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/pmd/fsp/TethisNozzle"/>
+        <rdfs:isDefinedBy>Schneider, F., Suleiman, S., Menser, J., Borukhovich, E., Wlokas, I., Kempf, A., Wiggers, H., and Schulz, C., Spraysyn—A Standardized Burner Configuration for Nanoparticle Synthesis in Spray Flames, Rev. Scientific Instr., vol. 90, no. 8, p. 085108, 2019.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Spray Syn Nozzle</rdfs:label>
+        <skos:definition xml:lang="en">A standard for a free-jet type burner that offers well-defined and simulation-friendly boundary conditions and geometries as well as accessibility for optical diagnostics.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/TethisNozzle -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/TethisNozzle">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/fsp/Nozzle"/>
+        <rdfs:isDefinedBy>L. Madler, H.K. Kammler, R. Mueller, S.E. Pratsinis, Controlled synthesis of nanostructured particles by flame spray pyrolysis, Journal of Aerosol Science, Volume 33, Issue 2, 2002</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Tethis Nozzle</rdfs:label>
+        <skos:definition xml:lang="en">An external-mixing gas-assisted nozzle that is made from a capillary tube of outer diameter 0.91 mm (inner diameter 0.6 mm) that lies in an opening of 1.2 mm in diameter creating an annular gap of 0.48 mm^2 maximum area. Precursor and fuel flow through the capillary tube while the dispersion gas passes through the annular gap. The capillary ends 0.5 mm above the opening.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/VacuumPump -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/VacuumPump">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/Component"/>
+        <rdfs:isDefinedBy>“Vacuump Pump. ” Merriam-Webster.com Dictionary, Merriam-Webster, https://dictionary.cambridge.org/dictionary/english/vacuum-pump. Accessed 7 Apr., 2024</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Vacuum Pump</rdfs:label>
+        <skos:definition xml:lang="en">A piece of equipment for removing air or gas from a container, creating a vacuum inside.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/Volume -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/Volume">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/ValueObject"/>
+        <rdfs:isDefinedBy>“Volume.” Merriam-Webster.com Dictionary, Merriam-Webster, https://www.merriam-webster.com/dictionary/volume. Accessed 7 Apr. 2024.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Volume</rdfs:label>
+        <skos:definition xml:lang="en">The amount of space occupied by a three-dimensional object as measured in cubic units (such as quarts or liters).</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/fsp/VolumeFlow -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/fsp/VolumeFlow">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/ValueObject"/>
+        <rdfs:isDefinedBy>https://w3id.org/pmd/fsp</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Volume Flow</rdfs:label>
+        <rdfs:label xml:lang="de">Volumenstrom</rdfs:label>
+        <skos:definition xml:lang="en">Temporal rate with which a defined volume of a species is moving.</skos:definition>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

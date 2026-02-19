@@ -1,0 +1,1930 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/pmd/hto/hto-base.owl#"
+     xml:base="https://w3id.org/pmd/hto/hto-base.owl"
+     xmlns:co="https://w3id.org/pmd/co/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="https://w3id.org/pmd/hto/hto-base.owl">
+        <owl:versionIRI rdf:resource="https://w3id.org/pmd/hto/releases/2026-01-13/hto-base.owl"/>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
+        <terms:contributor>Jannis Grundmann</terms:contributor>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-9014-2920"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0003-1649-6832"/>
+        <terms:creator rdf:resource="https://orcid.org/0009-0004-4787-4685"/>
+        <terms:description xml:lang="en">This ontology module is part of the Platform Material Digital Application Ontology (PMDao) and covers concepts related to heat treatment processes, parameters, and materials. It is designed to facilitate data integration, sharing, and analysis in the field of materials science and engineering, particularly focusing on heat treatment applications.</terms:description>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
+        <terms:title xml:lang="en">Platform Material Digital Application Ontology (PMDao) - Heat Treatment Module</terms:title>
+        <owl:versionInfo>2026-01-13</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/type -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#consider -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#consider"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#example -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#example"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/PMD_0000060 -->
+
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/pmd/co/PMD_0000060"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/PMD_0000064 -->
+
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/pmd/co/PMD_0000064"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000062 -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000062"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000039 -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000039"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000080 -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000080"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000085 -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000085"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000102 -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/STATO_0000102"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/PMD_0000009 -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/pmd/co/PMD_0000009"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/PMD_0020127 -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/pmd/co/PMD_0020127"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002135 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0002135"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/PMD_0000006 -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/pmd/co/PMD_0000006"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000016 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000023 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000024 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000024"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000145 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000145"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000202 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000202"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000003 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000003"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000005 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000005"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000109 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000109"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001930 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001930"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/PMD_0000008 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/co/PMD_0000008"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/PMD_0000055 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/co/PMD_0000055"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/PMD_0000602 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/co/PMD_0000602"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/PMD_0000779 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/co/PMD_0000779"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/PMD_0000781 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/co/PMD_0000781"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/PMD_0000833 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/co/PMD_0000833"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/PMD_0000847 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/co/PMD_0000847"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/PMD_0000896 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/co/PMD_0000896"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/PMD_0000967 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/co/PMD_0000967"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/PMD_0060006 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/co/PMD_0060006"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/PMD_0060008 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/co/PMD_0060008"/>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/AccelleratedCooling -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/AccelleratedCooling">
+        <obo:IAO_0000114>needs work</obo:IAO_0000114>
+        <rdfs:comment xml:lang="en">Achieved via convection only.</rdfs:comment>
+        <rdfs:comment>The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent.</rdfs:comment>
+        <rdfs:comment>so convection cooling is a function of a device, it could be realized in a cooling process. definatl needs a better name like acllerated convection cooling function, to be specific</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">obsolete accellerated cooling</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="en">Status of the cooling method active e.g., at the end of the nitriding process</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/AcquisitionDate -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/AcquisitionDate">
+        <obo:IAO_0000114>needs work</obo:IAO_0000114>
+        <rdfs:comment>The reason for obsoletion is that the term is not clearly defined and of uncertain relevance.</rdfs:comment>
+        <rdfs:comment>is a temperal instant!</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">obsolete acquisition date</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="en">The point in time a Process Node was commissioned (e.g., the purchase date, first day of use), represented in IEEE 1003 &apos;Seconds since Epoch&apos;. </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/Annealing -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/Annealing">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0000779"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="de">Glühen</rdfs:label>
+        <rdfs:label xml:lang="en">annealing</rdfs:label>
+        <skos:definition xml:lang="en">Heat treatment process to form a specific microstructure or reduce residual stresses.</skos:definition>
+        <skos:definition xml:lang="de">Wärmebehandlung um eine bestimmte Gefügeausbildung zu erzielen oder Spannungen zu reduzieren.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/Atmosphere -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/Atmosphere">
+        <oboInOwl:consider rdf:resource="https://w3id.org/pmd/co/PMD_0020113"/>
+        <rdfs:comment>The reason for obsoletion is that the meaning of the term is ambiguous.</rdfs:comment>
+        <rdfs:label xml:lang="en">obsolete atmosphere</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition>A surrounding influence or environment</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/AtmospherePressure -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/AtmospherePressure">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0000896"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/pmd/hto/ChamberPressure"/>
+        <rdfs:comment xml:lang="en">Effective atmosphere preasure in chamber to keep process save (must be 2-3 mbar above ambient prssure)</rdfs:comment>
+        <rdfs:comment xml:lang="en">Parameter usually slightly higher than ambient pressure for open process to environment to prevent/reduce diffusion of oxygen into the furnace, e.g. by leckage, to avoid explosive or dangerous atmopheres, could be bar, mbar or Pa</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">atmosphere pressure</rdfs:label>
+        <skos:definition xml:lang="en">Parameter describing the intended atmosphere pressure inside a chamber. </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/BelowAmbientPressure -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/BelowAmbientPressure">
+        <rdfs:comment>The reason for obsoletion is that the term is not clearly defined and of uncertain relevance.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">obsolete below ambient pressure</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="en">status of atmosphere: reduced pressure below ambient pressure </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/CarbonPotential -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/CarbonPotential">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
+        <rdfs:comment xml:lang="de">Nitrocarburieren mit Kohlenstoffträger, aus Messwerten abgeleitet KC</rdfs:comment>
+        <rdfs:comment xml:lang="en">See standard DIN 1310</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">carbon potential</rdfs:label>
+        <skos:definition xml:lang="en">Carbon content of a specimen of pure iron in equilibrium with a carbourizing medium under specific conditions.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/Carburizing -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/Carburizing">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0060008"/>
+        <rdfs:comment xml:lang="de">Potentiell ableitbar mit bestimmten Fluss-Schwellenwerten</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="de">Aufkohlen</rdfs:label>
+        <rdfs:label xml:lang="en">carburizing recipe</rdfs:label>
+        <skos:definition xml:lang="en">Heattreatment process with the scope to transfer carbon from the atmosphere to the component surface.</skos:definition>
+        <skos:definition xml:lang="de">Prozessschritt, während dessen Kohlenstoff aus der Atmosphäre an der Bauteiloberfläche übertragen wird</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/Chamber -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/Chamber">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000024"/>
+        <obo:IAO_0000114>needs work</obo:IAO_0000114>
+        <rdfs:comment xml:lang="de">unklare Zuordnung innerhalb der SDCs. Eine Kammer existiert nur als Teil eines Gerätes (Device), könnte aber selbst noch einmal als independent continuant definiert werden, da sich in der Kammer Chargen, Gestelle, Thermoelemente etc. befinden.</rdfs:comment>
+        <rdfs:comment>moved to fiat object part. correct if every furnace has a chamber</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">chamber</rdfs:label>
+        <skos:definition xml:lang="en">Systemboundary of a distinct Heattreatment Process. Typically includes medium (e.g., Helium or Vacuum).</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/ChamberPressure -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/ChamberPressure">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/pmd/co/PMD_0000896"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/hto/Chamber"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0000896"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/hto/Chamber"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">measured atmophere pressure in retort, measured using the vacuum sensor </rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">chamber pressure</rdfs:label>
+        <skos:definition xml:lang="en">designated pressure in retort during evacuation phase pre to nitriding process or during low pressure nitriding process </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/ChamberScope -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/ChamberScope">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000114>needs work</obo:IAO_0000114>
+        <rdfs:comment xml:lang="de">Sollte mit Unit-Volume (m^3) verbunden sein</rdfs:comment>
+        <rdfs:comment>The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent.</rdfs:comment>
+        <rdfs:comment>competly dont get that one</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="de">obsolete Wärmebehandlungsofenkammer</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete chamberscope</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="de">Funktionale Ofenkammer.</skos:definition>
+        <skos:definition xml:lang="en">OBSOLETE. Functional furnace chamber.</skos:definition>
+        <skos:definition xml:lang="en">OBSOLETE. Position of the batch in a multi-chamber furnace
+A specialization of hasProcessNodeComponent representing distinguishable heat treatment chambers of a furnaces.
+can be: heating chamber / cooling chamber</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/CollectionInterfaceHint -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/CollectionInterfaceHint">
+        <rdfs:comment>The reason for obsoletion is that the term is not clearly defined and of uncertain relevance.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">obsolete collection interface hint</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="en">A label in support of identifying a network interface and/or address used by a process node to provide primary data stored in ontologies </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/ConcentrationH2 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/ConcentrationH2">
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <rdfs:comment xml:lang="en">Ammonia is usually intenionally induced;</rdfs:comment>
+        <rdfs:comment xml:lang="de">Einzelne Werte durch auf das Molekül spezifizierte Messsonden.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Might be calculated from model or measurement.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Oxygen concentration in process gas composition, oxygen can be formed during decomposition of e.g. carbon monoxide or dioxide or can be intenionally induced e.g. as air, synthetic air or water or enters the furnace via leckage.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Water concentration in process gas composition, if nominal water is intenionally induced; units could be e.g. mol/m³ or °C; signal could be in mA or mV or in vol.-% or °C (dew point)</rdfs:comment>
+        <rdfs:comment>Hydrogen can be formed during decomposition of e.g. ammonia, acetylene or can be intenionally induced e.g. in forming gas.</rdfs:comment>
+        <rdfs:comment>The reason for obsoletion is that the term is not clearly defined.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">obsolete concentration</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="en">Concentration in process gas composition; units could be e.g. mol/m³; signal could be in mA or mV or in vol.-%</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/Controlled -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/Controlled">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/hto/HTO_0000033"/>
+        <rdfs:comment>definition is not enough, what is controlled?</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">controlled</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="en">This Scope expresses that a :ValueObject is actively controlled during the process, e.g. a heating process where the temperature change is done in controlled intervals until the desired temperature is reached while an uncontrolled heating process would reach the desired temperature as fast as the furnace allows it to.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/Convection -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/Convection">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/hto/HTO_0000033"/>
+        <rdfs:comment>if its a device specification to run a heat up process by some spefiic mode of action, then pls change the definition</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">convection</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="en">konvection during heating, heating in atmosphere, not in vacuum </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/DewPoint -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/DewPoint">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">dew point</rdfs:label>
+        <skos:definition xml:lang="en">dew point of the atmosphere, measured during process or calculated from lambda / oxygen probe signal </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/DurationTillTargetTemperature -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/DurationTillTargetTemperature">
+        <rdfs:comment xml:lang="de">Erwärmdauer = Heizzeit + Durchwärmdauer</rdfs:comment>
+        <rdfs:comment xml:lang="de">Maß für die tatsächliche Dauer eines Erwärmvorgangs.</rdfs:comment>
+        <rdfs:comment>The reason for obsoletion is that the term is not clearly defined.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="de">obsolete Erwärmdauer</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete duration till target temperature</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="en">Measurement representing the actual duration of a heating procedure.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/DurationToReachTargetTemperature -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/DurationToReachTargetTemperature">
+        <oboInOwl:consider rdf:resource="https://w3id.org/pmd/hto/HTO_0000009"/>
+        <rdfs:comment>The reason for obsoletion is that the term is not clearly defined or of unclear importance.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">obsolete duration to reach target temperature</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="en">Parameter representing a derived duration of a heat up segment (in hours, minutes or seconds) </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/Fan -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/Fan">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0000602"/>
+        <rdfs:comment>not properly defined</rdfs:comment>
+        <rdfs:label xml:lang="en">fan</rdfs:label>
+        <skos:definition>A device that creates airflow.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/FanStateFast -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/FanStateFast">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/hto/HTO_0000033"/>
+        <obo:IAO_0000114>needs work</obo:IAO_0000114>
+        <rdfs:label xml:lang="en">fan state fast</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="en">Boolean parameter representing a fast fan speed setting in contrast to the default speed setting.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/FastCooling -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/FastCooling">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/hto/HeattreatmentMethod"/>
+        <rdfs:comment xml:lang="de">Anlagenbedingt.</rdfs:comment>
+        <rdfs:comment xml:lang="de">Schnellkühlung kann z.B. durch erhöhten Kühlwasserdurchfluss erfolgen.
+Auch erhöhte Gaskühlung durch ventilation.</rdfs:comment>
+        <rdfs:comment>The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent.</rdfs:comment>
+        <rdfs:label xml:lang="en">fast cooling</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="de">Schnellkühlung</skos:definition>
+        <skos:definition xml:lang="de">Stark beschleunigte Abkühlung ohne Abschreckmedium.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/Fluid -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/Fluid">
+        <obo:IAO_0100001 rdf:resource="https://w3id.org/pmd/co/PMD_0020113"/>
+        <rdfs:comment>The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent.</rdfs:comment>
+        <rdfs:label xml:lang="en">obsolete fluid</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition>A substance (such as a liquid or gas) tending to flow or conform to the outline of its container</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/FurnaceAtmosphere -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/FurnaceAtmosphere">
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <rdfs:comment>The reason for obsoletion is that the term is not clearly defined.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">obsolete furnace atmosphere</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="en">atmosphere type present in retort (vacuum, nitriding, neutral, carburizing)</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/FurnaceCooling -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/FurnaceCooling">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/hto/HeattreatmentMethod"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">furnace cooling</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="en">free cooling with deactivated heating unit and no additonal cooling by e.g. agitade nitrogene -&gt; furnace cool </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000000 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000000">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0000833"/>
+        <rdfs:comment xml:lang="en">intermediate class, not to be instatialized</rdfs:comment>
+        <rdfs:label xml:lang="de">Grundsätzliche Wärmebehandlungsvorgänge</rdfs:label>
+        <rdfs:label xml:lang="en">heat treatment essentials</rdfs:label>
+        <skos:definition xml:lang="en">Essential processes that make up heat treatments and can be used like building blocks.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000001 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000001">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0000055"/>
+        <rdfs:label xml:lang="en">quenching function</rdfs:label>
+        <skos:definition xml:lang="en">A quenching function is a (realizable) function that, when realized, enables a system to lower the temparature of a material fast enough, that it hinders diffusion processes and thus produces metastable material states.</skos:definition>
+        <skos:definition xml:lang="de">Eine Abschreckfunktion ist eine (realisierbare) Funktion, die es einem System ermöglicht die Temperatur eines Material schnell genug abzusenken, sodass Diffusionsprozesse behindert und dadurch metastabile Materialzustände erzeugt werden.</skos:definition>
+        <skos:example xml:lang="en">The function of a oil bath to quench steel after austenitisation so the material transforms into martensite.</skos:example>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000002 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000039"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/hto/HTO_0000010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/co/PMD_0000967"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0002135"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">target temperature specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000003 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000003">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/hto/HTO_0000032"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/hto/HTO_0000005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">temperature change rate specification</rdfs:label>
+        <skos:definition>Device specification which - as part of plan specifications (e.g. recipes) - specifies the rate at which temparature is to be changed.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000004 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000004">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0060008"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/hto/HTO_0000002"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/hto/HTO_0000003"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">heating recipe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000005 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000005">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0000008"/>
+        <rdfs:label xml:lang="en">temperature change rate</rdfs:label>
+        <skos:definition xml:lang="en">A process attribute defining the change of temperature per time unit within a process.</skos:definition>
+        <skos:prefLabel>temperature change rate</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000006 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000006">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/pmd/co/PMD_0020127"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/co/PMD_0000967"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">target temperature</rdfs:label>
+        <skos:definition xml:lang="en">Process characteristic defining the temperature that is to be reached within a process that involves a defined change of temperature.</skos:definition>
+        <skos:prefLabel xml:lang="en">target temperature</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000007 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <rdfs:label xml:lang="en">melting temperature</rdfs:label>
+        <skos:definition>disposition of a material at which a phase transformation between liquid and solid state takes place</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000008 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000008">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/hto/HTO_0000032"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/hto/HTO_0000009"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">duration specification</rdfs:label>
+        <skos:definition>Device specification as part of a plan specification which specifies the duration of a given process.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000009 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000202"/>
+        <rdfs:label xml:lang="en">duration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000010 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
+        <rdfs:label xml:lang="en">temperature unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000011 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <rdfs:comment>needs more work; austenitic phase can be reached from at least two temperatures for any given material (from liquid or from ferrite)</rdfs:comment>
+        <rdfs:label xml:lang="en">austenitizing temperature</rdfs:label>
+        <skos:definition>disposition of material which marks the phase change to austenite</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000012 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000012">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0000781"/>
+        <rdfs:label xml:lang="en">holding function</rdfs:label>
+        <skos:definition xml:lang="en">A holding function is a (realizable) function that, when realized, enables a system or device to hold the thermal energy of a material, typically to facilitate diffusion and phase transformation processes within the material.</skos:definition>
+        <skos:example>function of a furnace to hold its temperature at a specified temperature</skos:example>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000013 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000013">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/pmd/co/PMD_0060008"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/hto/HTO_0000004"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/hto/HTO_0000014"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/hto/HTO_0000015"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/hto/HTO_0000016"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:comment>add target temperature in axioms, combine it with austenitisation temperature</rdfs:comment>
+        <rdfs:label xml:lang="en">hardening recipe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000014 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000014">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0060008"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/hto/HTO_0000002"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/hto/HTO_0000008"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">holding recipe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000015 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000015">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0060008"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/hto/HTO_0000002"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/hto/HTO_0000008"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">soaking recipe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000016 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000016">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/hto/HTO_0000017"/>
+        <rdfs:label xml:lang="en">quenching recipe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000017 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000017">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0060008"/>
+        <rdfs:label xml:lang="en">cooling recipe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000018 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000018">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0060008"/>
+        <rdfs:label xml:lang="en">nitriding recipe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000019 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000019">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/hto/Hardening"/>
+        <rdfs:label xml:lang="de">Oberflächenhärtung</rdfs:label>
+        <rdfs:label xml:lang="en">surface hardening</rdfs:label>
+        <skos:altLabel xml:lang="de">Randschichthärtung</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000020 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000020">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/hto/Hardening"/>
+        <rdfs:label xml:lang="de">Durchhärten</rdfs:label>
+        <rdfs:label xml:lang="en">through hardening</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000021 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000021">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/pmd/co/PMD_0060008"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/hto/HTO_0000013"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/hto/HTO_0000023"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0060008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/hto/HTO_0000013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/hto/HTO_0000023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">QT recipe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000022 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000022">
+        <rdfs:subClassOf rdf:nodeID="genid47"/>
+        <obo:IAO_0000116 xml:lang="en">the axiom should also include the order of the process (hardening precedes tempering)</obo:IAO_0000116>
+        <rdfs:label xml:lang="de">Vergüten</rdfs:label>
+        <rdfs:label xml:lang="en">quenching and tempering</rdfs:label>
+        <skos:altLabel xml:lang="en">QT</skos:altLabel>
+        <skos:definition xml:lang="en">QT is a heat treatment process in which a hardening process is followed by a tempering process.</skos:definition>
+        <skos:definition xml:lang="de">Vergüten ist ein Wärmebehandlungsverfahren bei dem auf ein Härtungsprozess ein Anlassprozess folgt.</skos:definition>
+    </owl:Class>
+    <owl:Class rdf:nodeID="genid47">
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/pmd/hto/HTO_0000020"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/hto/Hardening"/>
+            </owl:Restriction>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/hto/Tempering"/>
+            </owl:Restriction>
+        </owl:intersectionOf>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://w3id.org/pmd/hto/HTO_0000022"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:nodeID="genid47"/>
+        <obo:IAO_0000116>this axiom should also include the order of the process (hardening precedes tempering)</obo:IAO_0000116>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000023 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000023">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0060008"/>
+        <rdfs:comment>add target temperature in axioms</rdfs:comment>
+        <rdfs:label xml:lang="en">tempering recipe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000025 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000025">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/hto/HTO_0000019"/>
+        <rdfs:label xml:lang="en">carburizing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000027 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000027">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/pmd/co/PMD_0020127"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/co/PMD_0000896"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A process attribute. Describes the pressure set point for a given process.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">target pressure</rdfs:label>
+        <skos:prefLabel xml:lang="en">target pressure</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000028 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000028">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0000602"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/hto/HTO_0000029"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">mass flow controller</rdfs:label>
+        <skos:definition xml:lang="en">Device that has the function to control the flow of fluid media to a defined mass flow. It consists of a mass flow meter and a proportional valve.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000029 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000029">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0000847"/>
+        <rdfs:label xml:lang="en">flow measuring function</rdfs:label>
+        <skos:definition>A subfunction of measuring performed to determine the flow of fluids.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000030 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000030">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/hto/HTO_0000005"/>
+        <rdfs:label xml:lang="en">heating rate</rdfs:label>
+        <skos:definition>A temperature change rate that is of positive value.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000031 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000031">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/hto/HTO_0000005"/>
+        <rdfs:label xml:lang="en">cooling rate</rdfs:label>
+        <skos:definition>A temperature change rate that is of negative value.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000032 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000032">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0060006"/>
+        <terms:creator>thonagel</terms:creator>
+        <rdfs:comment>Internally (within the devices&apos; logic) a process is run to reach and maintain the given setpoint.</rdfs:comment>
+        <rdfs:label xml:lang="de">Sollwert</rdfs:label>
+        <rdfs:label xml:lang="en">setpoint</rdfs:label>
+        <skos:definition xml:lang="en">A Set Point is a device specification that assigns a desired quantitative value to a controlled process parameter, serving as the normative reference for process execution and control.</skos:definition>
+        <skos:example>The flow rate for a mass flow controller.
+The target temperature in the furnace chamber for a given process step.
+The rotational speed of a fan.</skos:example>
+        <co:PMD_0000064>tdb</co:PMD_0000064>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000033 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000033">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0060006"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/hto/HTO_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/co/PMD_0000602"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:creator>thonagel</terms:creator>
+        <rdfs:label xml:lang="en">device operation state</rdfs:label>
+        <skos:definition xml:lang="en">A Device Operation State is a state that inheres in a device and specifies whether a device function is currently active or inactive, typically represented in a control or output protocol as an on/off (or analogous binary) indicator.</skos:definition>
+        <skos:definition xml:lang="en">Switches are device specifications that triggers a certain function within a device that can only assume two states (on/off).</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000034 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HTO_0000034">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/pmd/hto/HTO_0000035"/>
+                    <rdf:Description rdf:about="https://w3id.org/pmd/hto/HTO_0000036"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <rdfs:label xml:lang="en">device operation state value</rdfs:label>
+        <co:PMD_0000060 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</co:PMD_0000060>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/Hardening -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/Hardening">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0000779"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/STATO_0000102"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/hto/HTO_0000013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="de">Härten</rdfs:label>
+        <rdfs:label xml:lang="en">hardening</rdfs:label>
+        <skos:definition xml:lang="en">Heat treatment process to increase the strength and hardness of the material by cooling it so that its microstructure transforms to the hardening structure.</skos:definition>
+        <skos:definition xml:lang="de">Wärmebehandlungprozess durch den eine Härte- und Festigkeitssteigerung erreicht wird, in dem das Material mit solcher Geschwindikeit abgekühlt wird, dass ein Härtungsgefüge enstehen kann.</skos:definition>
+        <skos:example>Randschichthärten
+
+Einsatzhärten
+
+Nitrierhärten</skos:example>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HeatingChamber -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HeatingChamber">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/hto/Chamber"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="de">Heizkammer</rdfs:label>
+        <rdfs:label xml:lang="de">Ofenkammer mit einer Heizung.</rdfs:label>
+        <rdfs:label xml:lang="en">heating chamber</rdfs:label>
+        <skos:definition xml:lang="en">Distinguishable chamber of a heat treatment furnace with a heater.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HeatingTime -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HeatingTime">
+        <oboInOwl:consider rdf:resource="https://w3id.org/pmd/hto/HTO_0000009"/>
+        <rdfs:comment>The reason for obsoletion is that the term is not clearly defined or of unclear importance.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="de">obsolete Erwärmdauer</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete Heating Time</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="de">Dauer bis zum Erreichen der Zieltemperatur im Ofen.</skos:definition>
+        <skos:definition xml:lang="en">Duration until the target temperature is reached in the furnace.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HeattreatmentMethod -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HeattreatmentMethod">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000114>needs work</obo:IAO_0000114>
+        <rdfs:comment>The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent.</rdfs:comment>
+        <rdfs:comment>all childs are only categories of processes and definatly not roles! what makes a fats cooling? al colling process with some process charateristic on temperature with 100K/min?</rdfs:comment>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HeattreatmentScope -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HeattreatmentScope">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000114>needs work</obo:IAO_0000114>
+        <rdfs:comment>childs are processes that realize a certain goal as realizabale</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">heattreatmentscope</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="en">This class specifices the scope of the specific heattreatment process.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HydrogeneSensorSignal -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/HydrogeneSensorSignal">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <rdfs:comment xml:lang="en">nominal pre-set value of control system for hydrogen probe </rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">hydrogene sensor signal</rdfs:label>
+        <skos:definition xml:lang="en">measured hydrogen value of  hydrogen probe measured in milli volt </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/LambdaProbeSignal -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/LambdaProbeSignal">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">lambda probe signal</rdfs:label>
+        <skos:definition xml:lang="en">measured lambda probe signal in exhaust gas </skos:definition>
+        <skos:definition xml:lang="en">measured signal of the lambda-probe in millivolt, representing the atmospheres redox-potential </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/LeakageCheck -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/LeakageCheck">
+        <oboInOwl:consider rdf:resource="https://w3id.org/pmd/hto/HTO_0000009"/>
+        <rdfs:comment>The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">obsolete leakage check</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="en">leakage test duration, where the change of pressure after evacuation is rated according to leakages present </skos:definition>
+        <skos:definition xml:lang="en">stands for the dwell time during which the pressure increase is evaluated to check tighness of furnace after evacuation initially at process begin </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/LeakageInterval -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/LeakageInterval">
+        <oboInOwl:consider rdf:resource="https://w3id.org/pmd/hto/HTO_0000009"/>
+        <rdfs:comment xml:lang="en">Stands for the measurement interval for recording sensor signals (pressure, temperature) and instrument settings (rotational speed, flow rate of MFC), unit as time stamp hh:mm:ss </rdfs:comment>
+        <rdfs:comment>The reason for obsoletion is that the term is not clearly defined.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">obsolete leakage interval</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="en">effective leakage measuring duration </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/Nitriding -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/Nitriding">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/hto/HTO_0000019"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="de">Nitrieren</rdfs:label>
+        <rdfs:label xml:lang="en">nitriding</rdfs:label>
+        <skos:altLabel xml:lang="de">Aufsticken</skos:altLabel>
+        <skos:altLabel xml:lang="de">Nitridieren</skos:altLabel>
+        <skos:definition xml:lang="de">Oberflächenhärtungsverfahren bei dem Stickstoff in flüssigem oder gasförmigem Zustand an eine Oberfläche gebracht wird, mit dem Ziel den Stickstoffgehalt in der Oberfläche des Materials zu erhöhen.</skos:definition>
+        <skos:definition xml:lang="en">surface hardening process in which nitrogen in liquid or gaseous form is supplied to a material&apos;s surface with the goal to increase the nitrogen content in the surface of a sample or part.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/NitridingDepth -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/NitridingDepth">
+        <obo:IAO_0100001 rdf:resource="https://w3id.org/pmd/co/HTO_0000039"/>
+        <rdfs:comment>The reason for obsoletion is that the meaning of the term is ambiguous.</rdfs:comment>
+        <rdfs:comment>propably some thicknes quality on some special fiat continuent part, diffusion layer having nitrid or something</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">obsolete nitriding depth</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="en">designated nitriding depth or measured nitriding depth</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/NitridingPotential -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/NitridingPotential">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
+        <rdfs:comment xml:lang="en">The nitriding potential is a key indicator how intensive the nitriding process is, the higher the value the stronger the nitriding conditions, unit is bar^-3/2</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">nitriding potential</rdfs:label>
+        <skos:definition xml:lang="en">calculated nitriding potential, generated out of H2 / NH3 atmosphere content measurement</skos:definition>
+        <skos:definition xml:lang="en">nitriding potential of atmosphere calculated from H2 probe signal and ammonia flow rate </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/OilQuenchingDuration -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/OilQuenchingDuration">
+        <oboInOwl:consider rdf:resource="https://w3id.org/pmd/hto/HTO_0000009"/>
+        <rdfs:comment>The reason for obsoletion is that the term is not clearly defined or of unclear importance.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="de">obsolete Abschreckdauer</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete Oil Quenching Duration</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="en">Dwell time of the components in the quenching medium.</skos:definition>
+        <skos:definition xml:lang="en">Parameter indicating the duration of the conducted quenching action </skos:definition>
+        <skos:definition xml:lang="de">Verweildauer der Bauteile im Abschreckmedium.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/OverPressure -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/OverPressure">
+        <obo:IAO_0000114>needs work</obo:IAO_0000114>
+        <obo:IAO_0100001 rdf:resource="https://w3id.org/pmd/co/PMD_0000896"/>
+        <rdfs:comment>The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">obsolete over pressure</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="en"> Parameter also for liquid or gaseous media for quenching condition of inductive heat treatments, e.g. water pressure or nitrogen pressure in mbar or bar </skos:definition>
+        <skos:definition xml:lang="en">Parameter describing a significant higher pressure than ambient pressure, e.g. during a high pressure gas quenching process step, could be mbar or bar </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/OxygenProbeSignal -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/OxygenProbeSignal">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">oxygen probe signal</rdfs:label>
+        <skos:definition xml:lang="en"> measured oxygen probe signal in retort atmosphere </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/PartialPressure -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/PartialPressure">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">partial pressure</rdfs:label>
+        <skos:definition xml:lang="en"> Paramenter describing the intended pressure inside a chamber targeted in a factor relative to one bar (using a vakuum cooling or an atmosphere flow). The complement to vacuum-heating as it allows for active vacuum pump during atmosphere flow. Should be set to zero, if vacuum-heating is true. </skos:definition>
+        <skos:definition xml:lang="en">Describing the intended pressure inside a chamber targeted in a factor relative to one bar (using a vakuum cooling or an atmosphere flow).</skos:definition>
+        <skos:definition xml:lang="en">Parameter describing the amount of a specific gas species in a mixture, could be mbar </skos:definition>
+        <skos:definition xml:lang="en">The complement to vacuum-heating as it allows for active vacuum pump during atmosphere flow. Should be set to zero, if vacuum-heating is true.</skos:definition>
+        <skos:definition xml:lang="en">nominal pressure of a specific atmosphere component thermochemical steps </skos:definition>
+        <skos:definition xml:lang="en">nominal pressure of thermochemical heat treatment pressure during thermochemical steps </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/QuenchingChamber -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/QuenchingChamber">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/hto/Chamber"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="de">Abschreckkammer</rdfs:label>
+        <rdfs:label xml:lang="en">Quenching Chamber</rdfs:label>
+        <skos:definition xml:lang="en">Chamber of a heat treatment furnace that is designed to quench objects.</skos:definition>
+        <skos:definition xml:lang="de">Kammer eines Wärmebehandlungsofens, die zum Abschrecken von Gegenständen bestimmt ist.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/QuenchingLeadtime -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/QuenchingLeadtime">
+        <oboInOwl:consider rdf:resource="https://w3id.org/pmd/hto/HTO_0000009"/>
+        <rdfs:comment>The reason for obsoletion is that the term is not clearly defined or of unclear importance.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="de">obsolete Abschreckvorlaufzeit</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete Quenching Leadtime</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="de">Dauer zwischen Verlassen der Heizkammer und Beginn der effektiven Abschreckung. Gilt für Zweikammeröfen.</skos:definition>
+        <skos:definition xml:lang="en">Duration between leaving the heating chamber and the start of effective quenching. Applies to two-chamber furnaces.</skos:definition>
+        <skos:definition xml:lang="en">Parameter indicatin the duration right before the quenching  process </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/RecordingInterval -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/RecordingInterval">
+        <oboInOwl:consider rdf:resource="https://w3id.org/pmd/hto/HTO_0000009"/>
+        <rdfs:comment xml:lang="en">stands for the measurement interval for recording sensor signals (pressure, temperature) and instrument settings (rotational speed, flow rate of MFC), unit as time stamp hh:mm:ss </rdfs:comment>
+        <rdfs:comment>The reason for obsoletion is that the term is not clearly defined.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">obsolete recording interval</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="en"> effective data aquisition and saving interval for documentation </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/Rotation -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/Rotation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/hto/HTO_0000032"/>
+        <obo:IAO_0000114>needs work</obo:IAO_0000114>
+        <rdfs:comment>seam to be a device specification pinting to a process charateristic of type speed</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">rotation speed specification</rdfs:label>
+        <skos:definition xml:lang="en">Device specification describing the intended rotational speed of a device e.g. an fan or turbine</skos:definition>
+        <skos:definition xml:lang="en">rotation speed of the atmosphere agitation device </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/SequenceDescriptor -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/SequenceDescriptor">
+        <rdfs:comment>The reason for obsoletion is that the term is not clearly defined and of uncertain relevance.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">obsolete sequence descriptor</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="en">Label of a given process step within a process recipe.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/SequenceDuration -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/SequenceDuration">
+        <rdfs:comment>The reason for obsoletion is that the term is not clearly defined or of unclear importance.</rdfs:comment>
+        <rdfs:label xml:lang="en">DEPRECATED sequence duration</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://w3id.org/pmd/hto/HTO_0000009"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="en">DEPRECATED Duration of a sequence for which certain furnace settings and process parameters can be defined.</skos:definition>
+        <skos:definition xml:lang="en">DEPRECATED Duration of the current heat treatment recipe sequence.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/SequenceNumber -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/SequenceNumber">
+        <rdfs:comment>The reason for obsoletion is that the term is not clearly defined and of uncertain relevance.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">obsolete sequence number</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="en"> An identifier indicating a process-number in a Workflow represented via consecutive integers </skos:definition>
+        <skos:definition xml:lang="en">number of process step of heat treatment recipe </skos:definition>
+        <skos:definition xml:lang="en">ongoing number for labeling the process steps within a process recipe </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/SlowCooling -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/SlowCooling">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/hto/HeattreatmentMethod"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="de">Langsame Gleichgewichtsnahabkühlung</rdfs:label>
+        <rdfs:label xml:lang="en">Slow Cooling</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="de">Langsame Abkühlung unter gleichgewichtsnahen Bedingungen, um ein gleichgewichtsnahes Gefüge zu erzeugen.</skos:definition>
+        <skos:definition xml:lang="en">Slow cooling with equilibrium near conditions, to foster an equilibrium near micro structure.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/SoakingDuration -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/SoakingDuration">
+        <oboInOwl:consider rdf:resource="https://w3id.org/pmd/hto/HTO_0000009"/>
+        <rdfs:comment>The reason for obsoletion is that the term is not clearly defined or of unclear importance.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="de">obsolete Durchwärmzeit</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete soaking duration</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="de">Dauer bis zum Erreichen der homogenen Temperatur im Bauteil.</skos:definition>
+        <skos:definition xml:lang="en">Duration at isothermal temperatur step.</skos:definition>
+        <skos:definition xml:lang="en">Duration to achieve a homogenous temperature distribution in the part</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/SystemTimeForDiagramGeneration -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/SystemTimeForDiagramGeneration">
+        <obo:IAO_0000114>needs work</obo:IAO_0000114>
+        <rdfs:comment>The reason for obsoletion is that the term is not clearly defined and of uncertain relevance.</rdfs:comment>
+        <rdfs:comment>usualy a diagram is created out of a process, and it exists then</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">obsolete system time for diagram generation</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="de"> Extrahierte Systemzeit für das Diagram geniert </skos:definition>
+        <skos:definition xml:lang="en">time stamp for measuring data aquisition time and diagram generation / data syncing </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/Tempering -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/Tempering">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/pmd/co/PMD_0000779"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000062"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/hto/Hardening"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 xml:lang="en">needs work</obo:IAO_0000114>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="de">Anlassen</rdfs:label>
+        <rdfs:label xml:lang="en">tempering</rdfs:label>
+        <skos:definition xml:lang="en">A heat treatment process to transform the hardening structure into the direction or equilibrium structure.</skos:definition>
+        <skos:definition xml:lang="de">Ein Wärmebehandlungsprozess, um das Härtungsgefüge in die Richtung oder in ein Gleichgewichtsgefüge umzuwandeln.</skos:definition>
+        <skos:definition xml:lang="en">Tempering</skos:definition>
+        <skos:definition xml:lang="en">heat treatement process with the scope to reduce the hardness of a prior hardened sample or part</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/TypeDescription -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/TypeDescription">
+        <obo:IAO_0000114>marked to remove</obo:IAO_0000114>
+        <rdfs:comment>The reason for obsoletion is that the term is not clearly defined and of uncertain relevance.</rdfs:comment>
+        <rdfs:comment>makes no sense to me, if its a decription, create a dc:decription on that individual or class</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="de">obsolete Typbeschreibung</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete Type Description</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="en">Description for Process Node&apos;s utility, e.g. &quot;Rear Vacuum Furnace Oil Quenching&quot;.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/VacuumHeatingPressure -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/VacuumHeatingPressure">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0000896"/>
+        <obo:IAO_0000114>needs work</obo:IAO_0000114>
+        <rdfs:comment>The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent.</rdfs:comment>
+        <rdfs:comment>should be defined as pressur that inheres in a vacum heating pump. Add vacuum heating pump to devices</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">obsolete vacuum heating pressure</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="en">OBSOLETE. Pressure of the vaccum heating pump.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/VacuumPressure -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/VacuumPressure">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0000896"/>
+        <rdfs:comment xml:lang="en"> in retort measured value of vakuum sensor </rdfs:comment>
+        <rdfs:comment xml:lang="en"> pre-set gas pressure at vacuum sequence </rdfs:comment>
+        <rdfs:comment>The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent.</rdfs:comment>
+        <rdfs:comment>should be defined in conjuntion to some device or role</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="en">obsolete vacuum pressure</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:definition xml:lang="en"> Parameter describing the intended vacuum pressure inside a chamber. </skos:definition>
+        <skos:definition xml:lang="en">OBSOLETE. Paramenter describing the measured pressure inside a chamber; units could be mbar, bar</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/cooling -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/cooling">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/hto/HTO_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/pmd/co/PMD_0000009"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/hto/HTO_0000005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="de">Abkühlprozess</rdfs:label>
+        <rdfs:label xml:lang="en">cooling</rdfs:label>
+        <skos:definition xml:lang="en">A process in which the temperature is lowered from a higher to a lower level.</skos:definition>
+        <skos:definition xml:lang="de">Ein Prozess, bei dem die Temperatur von einem höherem auf ein niedrigeres Niveau abgesenkt wird.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/heating -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/heating">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/hto/HTO_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/pmd/co/PMD_0000009"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/hto/HTO_0000006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="de">Erwärmen</rdfs:label>
+        <rdfs:label xml:lang="en">heating</rdfs:label>
+        <skos:definition xml:lang="en">A process in which the temperature is increased from a lower to a higher level.</skos:definition>
+        <skos:definition xml:lang="de">Ein Prozess, bei dem die Temperatur von einem niedrigem auf ein höheres Niveau gesteigert wird.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/holding -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/holding">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/hto/HTO_0000000"/>
+        <rdfs:comment xml:lang="de">Die HoldingTime ist stets mit einer vorhergehende SoakingTime verbunden.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="de">Halten</rdfs:label>
+        <rdfs:label xml:lang="en">holding</rdfs:label>
+        <skos:definition xml:lang="en">Process step without temperature change in the furnace after the designated temperature was homogeneously reached within the part.</skos:definition>
+        <skos:definition xml:lang="de">Prozessschritt ohne Temperaturänderung im Ofen.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/quenching -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/quenching">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/hto/cooling"/>
+        <rdfs:label xml:lang="de">Abschrecken</rdfs:label>
+        <rdfs:label xml:lang="en">quenching</rdfs:label>
+        <skos:definition xml:lang="en">Process with significantly increased cooling rate, aimed at preventing diffusion based transformations.</skos:definition>
+        <skos:definition xml:lang="de">Prozess mit stark erhöhter Abkühlgeschwindigkeit, mit dem Ziel der Verhinderung diffusionsgesteuerter Umwandlungen.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/soaking -->
+
+
+    <owl:Class rdf:about="https://w3id.org/pmd/hto/soaking">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/hto/HTO_0000000"/>
+        <rdfs:comment>Durchwärmen des Bauteils, sodass Temperaturhomogenität erreicht wird. Anschließend kann ein Halten auf der Zieltemperatur erfolgen.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pmd/hto/"/>
+        <rdfs:label xml:lang="de">Durchwärmen</rdfs:label>
+        <rdfs:label xml:lang="en">soaking</rdfs:label>
+        <skos:definition xml:lang="en">Process step during which temperature homogenization is achieved in the component.</skos:definition>
+        <skos:definition xml:lang="de">Prozesschritt, während dessen die Temperaturhomogenisierung im Bauteil erreicht wird.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000035 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/hto/HTO_0000035">
+        <co:PMD_0000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</co:PMD_0000006>
+        <rdfs:label xml:lang="en">ON</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/pmd/hto/HTO_0000036 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pmd/hto/HTO_0000036">
+        <co:PMD_0000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</co:PMD_0000006>
+        <rdfs:label xml:lang="en">OFF</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
