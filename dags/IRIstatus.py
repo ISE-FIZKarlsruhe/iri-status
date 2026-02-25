@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import logging
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -13,8 +12,6 @@ from sqlalchemy import create_engine, text
 from sqlalchemy.engine import make_url
 
 from airflow.sdk import dag, task, Variable
-
-log = logging.getLogger(__name__)
 
 # ---------------------------
 # Config
@@ -66,7 +63,7 @@ def engine():
     if url.drivername.startswith("sqlite") and url.database:
         db_file = Path(url.database)
         db_file.parent.mkdir(parents=True, exist_ok=True)
-        log.info("Ensured SQLite directory exists: %s", db_file.parent)
+        print(f"Ensured SQLite directory exists: {db_file.parent}")
 
     return create_engine(dsn, pool_pre_ping=True)
 
@@ -94,7 +91,6 @@ def get_version_info(graph: Graph) -> tuple[str, str]:
     version_iri = ""
     prior_version = ""
 
-    # Correct ontology discovery pattern
     for s in graph.subjects(RDF.type, OWL.Ontology):
         for v in graph.objects(s, OWL.versionIRI):
             version_iri = str(v)
@@ -153,7 +149,7 @@ def test_iri(iri: str) -> list[dict]:
                 "current_version": curr_version,
                 "previous_version": prior_version,
                 "triple_count": int(triple_count),
-                "message": str(message)[:50000],  # avoid oversized values
+                "message": str(message)[:50000],
             }
         )
 
@@ -175,21 +171,21 @@ def ontology_iri_monitor():
     @task
     def preflight():
         v = Variable.get("iri_results_db")
-        log.info("Variable iri_results_db present=%s", v is not None)
+        print(f"Variable iri_results_db present={v is not None}")
 
         with engine().connect() as cx:
             ok = cx.execute(text("select 1")).scalar()
-            log.info("DB OK: select 1 => %s", ok)
+            print(f"DB OK: select 1 => {ok}")
 
-        log.info("Configured IRIs count=%d", len(IRIS))
+        print(f"Configured IRIs count={len(IRIS)}")
         for iri in IRIS:
-            log.info("IRI: %s", iri)
+            print(f"IRI: {iri}")
 
     @task
     def ensure_tables():
         """
         SQLite-compatible schema.
-        Keep history in ontology_results, and expose ontology_results_latest view.
+        ONLY keeps the latest run (table is replaced each run).
         """
         ddl = [
             """
@@ -207,11 +203,6 @@ def ontology_iri_monitor():
               message TEXT
             );
             """,
-            # Optional index for latest queries / filtering in Superset
-            """
-            CREATE INDEX IF NOT EXISTS idx_ontology_results_run_ts
-            ON ontology_results (run_ts_utc);
-            """,
             """
             CREATE INDEX IF NOT EXISTS idx_ontology_results_iri
             ON ontology_results (iri);
@@ -223,7 +214,7 @@ def ontology_iri_monitor():
             for stmt in ddl:
                 cx.execute(text(stmt))
 
-        log.info("Ensured ontology_results table/indexes exist")
+        print("Ensured ontology_results table/indexes exist")
 
     @task
     def run_checks() -> list[dict]:
@@ -231,84 +222,42 @@ def ontology_iri_monitor():
         all_rows: list[dict] = []
 
         for i, iri in enumerate(IRIS, start=1):
-            log.info("Processing %d/%d: %s", i, len(IRIS), iri)
+            print(f"Processing {i}/{len(IRIS)}: {iri}")
             rows = test_iri(iri)
             for r in rows:
                 r["run_ts_utc"] = now
             all_rows.extend(rows)
 
-        log.info("Generated rows=%d for run_ts_utc=%s", len(all_rows), now)
+        print(f"Generated rows={len(all_rows)} for run_ts_utc={now}")
         return all_rows
 
     @task
     def write_results(rows: list[dict]):
+        """
+        Replace table contents so only the last run is stored.
+        """
         if not rows:
             raise RuntimeError("No rows produced by run_checks")
 
         df = pd.DataFrame(rows)
-
         eng = engine()
-        df.to_sql("ontology_results", eng, if_exists="append", index=False)
-        log.info("Appended %d rows to ontology_results", len(df))
 
-    @task
-    def ensure_latest_view():
-        """
-        SQLite-compatible latest view:
-        one latest row per (iri, accept_header)
-        """
-        ddl = [
-            """
-            DROP VIEW IF EXISTS ontology_results_latest;
-            """,
-            """
-            CREATE VIEW ontology_results_latest AS
-            SELECT
-              run_ts_utc,
-              iri,
-              accept_header,
-              http_status,
-              final_url,
-              content_type,
-              parsed_successfully,
-              current_version,
-              previous_version,
-              triple_count,
-              message
-            FROM (
-              SELECT
-                run_ts_utc,
-                iri,
-                accept_header,
-                http_status,
-                final_url,
-                content_type,
-                parsed_successfully,
-                current_version,
-                previous_version,
-                triple_count,
-                message,
-                ROW_NUMBER() OVER (
-                  PARTITION BY iri, accept_header
-                  ORDER BY run_ts_utc DESC
-                ) AS rn
-              FROM ontology_results
-            )
-            WHERE rn = 1;
-            """,
-        ]
+        # Keep only latest run (overwrite table)
+        df.to_sql("ontology_results", eng, if_exists="replace", index=False)
 
-        eng = engine()
+        # Recreate index because replace drops/recreates table
         with eng.begin() as cx:
-            for stmt in ddl:
-                cx.execute(text(stmt))
+            cx.execute(text("""
+                CREATE INDEX IF NOT EXISTS idx_ontology_results_iri
+                ON ontology_results (iri);
+            """))
 
-        log.info("Ensured ontology_results_latest view exists")
+        print(f"Wrote {len(df)} rows to ontology_results (latest run only)")
 
     @task
     def ensure_summary_views():
         """
-        Optional helper views that make Superset charting easier.
+        Helper view for Superset (based on latest-only table).
         """
         ddl = [
             """
@@ -323,7 +272,7 @@ def ontology_iri_monitor():
               SUM(CASE WHEN http_status = '200' THEN 1 ELSE 0 END) AS http_200_count,
               SUM(CASE WHEN parsed_successfully = 1 THEN 1 ELSE 0 END) AS parsed_ok_count,
               MAX(triple_count) AS max_triple_count
-            FROM ontology_results_latest
+            FROM ontology_results
             GROUP BY iri;
             """,
         ]
@@ -333,16 +282,15 @@ def ontology_iri_monitor():
             for stmt in ddl:
                 cx.execute(text(stmt))
 
-        log.info("Ensured ontology_iri_latest_summary view exists")
+        print("Ensured ontology_iri_latest_summary view exists")
 
     p = preflight()
     t = ensure_tables()
     r = run_checks()
     w = write_results(r)
-    v1 = ensure_latest_view()
-    v2 = ensure_summary_views()
+    v = ensure_summary_views()
 
-    p >> t >> r >> w >> [v1, v2]
+    p >> t >> r >> w >> v
 
 
 ontology_iri_monitor()
